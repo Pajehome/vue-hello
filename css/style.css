@@ -1,3 +1,9 @@
 .bg{
     width:180px;
 }
+.color{
+    color: darkgray;
+}
+body{
+    background-color: rgb(114, 86, 86);
+}

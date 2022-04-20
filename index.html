@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id="hello">
-        <h1>{{testo}}</h1>
+        <h1 :class="{'color': isActive}">{{testo}}</h1>
         <img :class='sfondo':src="immagine" alt="">
         <button @click="addImg" type="button">Non Cliccare</button>
 
